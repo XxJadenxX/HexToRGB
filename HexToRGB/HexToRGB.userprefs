@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{6D332D05-953A-4536-BA18-555A521861F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HexToRGB/Main.storyboard">
+    <Files>
+      <File FileName="HexToRGB/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="HexToRGB/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.HexToRGB>
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.HexToRGB>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
