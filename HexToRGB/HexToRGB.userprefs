@@ -3,6 +3,7 @@
     <Files>
       <File FileName="HexToRGB/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="HexToRGB/Main.storyboard" />
+      <File FileName="HexToRGB/ViewController.cs" Line="20" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
