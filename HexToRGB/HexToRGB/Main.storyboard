@@ -14,41 +14,38 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="193" translatesAutoresizingMaskIntoConstraints="NO" placeholder="#FFFFFF">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="193" translatesAutoresizingMaskIntoConstraints="NO" placeholder="#FFFFFF" fixedFrame="YES">
                                 <rect key="frame" x="0.0" y="100" width="414" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="386" translatesAutoresizingMaskIntoConstraints="NO" text="Blue">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="386" translatesAutoresizingMaskIntoConstraints="NO" text="Blue" fixedFrame="YES">
                                 <rect key="frame" x="0.0" y="190" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="387" translatesAutoresizingMaskIntoConstraints="NO" text="Red">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="387" translatesAutoresizingMaskIntoConstraints="NO" text="Red" fixedFrame="YES">
                                 <rect key="frame" x="188" y="190" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="388" translatesAutoresizingMaskIntoConstraints="NO" text="Green">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="388" translatesAutoresizingMaskIntoConstraints="NO" text="Green" fixedFrame="YES">
                                 <rect key="frame" x="366" y="190" width="62" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="389" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="164" y="242" width="80" height="30"/>
-                                <state key="normal" title="Calculate">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2580" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="175" y="275" width="46" height="30"/>
+                                <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="ConvertButton_TouchUpInside:" destination="BYZ-38-t0r" id="593" eventType="touchUpInside"/>
-                                </connections>
                             </button>
                         </subviews>
                         <variation key="default">
@@ -57,7 +54,7 @@
                                 <exclude reference="386"/>
                                 <exclude reference="387"/>
                                 <exclude reference="388"/>
-                                <exclude reference="389"/>
+                                <exclude reference="2580"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -66,7 +63,7 @@
                                 <include reference="386"/>
                                 <include reference="387"/>
                                 <include reference="388"/>
-                                <include reference="389"/>
+                                <include reference="2580"/>
                             </mask>
                         </variation>
                     </view>
@@ -74,8 +71,8 @@
                         <outlet property="blueValueLabel" destination="386" id="name-outlet-386"/>
                         <outlet property="greenValueLabel" destination="388" id="name-outlet-388"/>
                         <outlet property="hexValueTextField" destination="193" id="name-outlet-193"/>
-                        <outlet property="convertButton" destination="389" id="name-outlet-389"/>
                         <outlet property="redValueLabel" destination="387" id="name-outlet-387"/>
+                        <outlet property="buttonNew" destination="2580" id="name-outlet-2580"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
