@@ -44,9 +44,25 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2580" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="175" y="275" width="46" height="30"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="ButtonNew_TouchUpInside:" destination="BYZ-38-t0r" id="2785" eventType="touchUpInside"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </variation>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Hex value!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2784" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="0.0" y="37" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                    <color key="tintColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
@@ -55,6 +71,7 @@
                                 <exclude reference="387"/>
                                 <exclude reference="388"/>
                                 <exclude reference="2580"/>
+                                <exclude reference="2784"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -64,7 +81,9 @@
                                 <include reference="387"/>
                                 <include reference="388"/>
                                 <include reference="2580"/>
+                                <include reference="2784"/>
                             </mask>
+                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         </variation>
                     </view>
                     <connections>
@@ -83,4 +102,5 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina55"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
 </document>

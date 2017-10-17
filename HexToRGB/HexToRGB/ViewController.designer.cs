@@ -33,6 +33,10 @@ namespace HexToRGB
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel redValueLabel { get; set; }
 
+        [Action ("ButtonNew_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void ButtonNew_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (blueValueLabel != null) {
